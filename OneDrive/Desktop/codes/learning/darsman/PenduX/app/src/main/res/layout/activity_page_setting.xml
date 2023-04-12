@@ -39,8 +39,44 @@
             android:textSize="40sp" />
     </LinearLayout>
 
+
+    <LinearLayout
+        android:id="@+id/layout_pageSetting_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_pageSetting_music"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:paddingTop="7dp"
+            android:text="Music"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <ToggleButton
+            android:id="@+id/Tglb1_pageSetting_music"
+            android:layout_width="127dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="100dp"
+            android:checked="true"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:drawableStart="@drawable/selector"
+            android:textSize="40sp"
+            android:onClick="playSound" />
+
+
+    </LinearLayout>
+
     <ImageButton
-        android:id="@+id/imgb_pageMain_back"
+        android:id="@+id/Imgb_pageMain_back"
         android:layout_width="70dp"
         android:layout_height="72dp"
         android:layout_marginTop="4dp"
