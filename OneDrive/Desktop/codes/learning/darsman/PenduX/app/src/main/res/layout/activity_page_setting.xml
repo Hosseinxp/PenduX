@@ -76,14 +76,16 @@
     </LinearLayout>
 
     <ImageButton
-        android:id="@+id/Imgb_pageMain_back"
-        android:layout_width="70dp"
-        android:layout_height="72dp"
+        android:id="@+id/imgb_pageSetting_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_revert" />
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24"
+        android:backgroundTint="#000" /> />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

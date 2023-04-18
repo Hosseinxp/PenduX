@@ -18,7 +18,7 @@ public class pageSetting extends AppCompatActivity {
     private MediaPlayer mediaPlayer;
     ToggleButton tglb_pageSetting_sound;
     ToggleButton Tglb1_pageSetting_music;
-    ImageButton imgb_pageMain_back;
+    ImageButton imgb_pageSetting_back;
 
     public pageSetting() {
     }
@@ -36,10 +36,10 @@ public class pageSetting extends AppCompatActivity {
 
     public void SetupView() {
         tglb_pageSetting_sound = findViewById(R.id.tglb_pageSetting_sound);
-        imgb_pageMain_back = findViewById(R.id.Imgb_pageMain_back);
+        imgb_pageSetting_back = findViewById(R.id.imgb_pageSetting_back);
         Tglb1_pageSetting_music = findViewById(R.id.Tglb1_pageSetting_music);
 
-        imgb_pageMain_back.setOnClickListener(new View.OnClickListener() {
+        imgb_pageSetting_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(pageSetting.this, MainActivity.class);

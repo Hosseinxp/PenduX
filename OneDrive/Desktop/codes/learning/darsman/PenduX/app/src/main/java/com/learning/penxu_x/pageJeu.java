@@ -16,7 +16,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
+
+
 public class pageJeu extends AppCompatActivity {
+
     static Button[] clavier=new Button[26];
 
     // création d'un dictionnaire pour avoir le button sur le clavier et la définition de sa valeur.
@@ -33,9 +36,11 @@ public class pageJeu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        String mot;
         setContentView(R.layout.activity_page_jeu);
         SetupView();
         Button_lettre();
+
 
         txt_pageJeu_essaie.setText("Il vous reste "+pageNiveaux.nombre_essaie+" essaies!");
 
@@ -49,6 +54,8 @@ public class pageJeu extends AppCompatActivity {
             txt_pageJeu_mot.setTextSize(45);
             txt_pageJeu_mot.setText(mot_a_afficher);
         }
+
+
 
         imgb_pageJeu_back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -189,6 +196,7 @@ public class pageJeu extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
 
 }
 
