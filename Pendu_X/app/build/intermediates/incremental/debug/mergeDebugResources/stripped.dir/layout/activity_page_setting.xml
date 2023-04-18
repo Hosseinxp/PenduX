@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="7dp"
+    tools:context=".pageSetting">
+
+    <LinearLayout
+        android:id="@+id/Vlayout_pageSetting_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_pageSetting_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:paddingTop="7dp"
+            android:text="Sound"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <ToggleButton
+            android:id="@+id/tglb_pageSetting_sound"
+            android:layout_width="127dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="100dp"
+            android:background="@color/Green"
+            android:checked="true"
+            android:textOff="OFF"
+            android:textOn="On"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imgb_pageMain_back"
+        android:layout_width="70dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

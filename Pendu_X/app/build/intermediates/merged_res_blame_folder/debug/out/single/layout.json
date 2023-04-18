@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_main.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_niveaux.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_niveaux.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_change_password.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_change_password.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_connexion.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_connexion.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_categorie.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_categorie.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_test.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_test.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_setting.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_setting.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_sign_up.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_sign_up.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_jeu.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_jeu.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_login.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_login.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_modification.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_modification.xml"
+    },
+    {
+        "merged": "com.learning.pendu_x.app-mergeDebugResources-40:/layout/activity_page_user_account.xml",
+        "source": "com.learning.pendu_x.app-main-43:/layout/activity_page_user_account.xml"
+    }
+]

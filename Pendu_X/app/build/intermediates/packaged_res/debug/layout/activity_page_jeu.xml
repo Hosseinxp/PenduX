@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pageJeu">
+
+    <TextView
+        android:id="@+id/txt_pageJeu_XCoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:inputType="number"
+        android:text="30"
+        android:textSize="37sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.959"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.806"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/xcoin_logo_cercle" />
+
+    <TextView
+        android:id="@+id/txt_pageJeu_mot"
+        android:layout_width="294dp"
+        android:layout_height="79dp"
+        android:padding="3dp"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269" />
+
+    <TextView
+        android:id="@+id/txt_pageJeu_essaie"
+        android:layout_width="327dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="385dp"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pageJeu_A"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="A"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_Z"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="Z"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_E"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="E"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_R"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="R"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_T"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="T"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_Y"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="Y"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_U"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="U"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_I"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="I"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_O"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="O"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_P"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="P"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pageJeu_Q"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="Q"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_S"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="S"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_D"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="D"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_F"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_G"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="G"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_H"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="H"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_J"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="J"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_K"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="K"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_L"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="L"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_M"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="M"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.33"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_pageJeu_W"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="W"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_X"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="X"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_C"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="C"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_V"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="V"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="B"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_pageJeu_N"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="0.125"
+                android:padding="3dp"
+                android:text="N"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imgb_pageJeu_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        android:backgroundTint="#000000" />
+
+    <TextView
+        android:id="@+id/txt_pageJeu_themeNiveau"
+        android:layout_width="308dp"
+        android:layout_height="48dp"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+</androidx.constraintlayout.widget.ConstraintLayout>
